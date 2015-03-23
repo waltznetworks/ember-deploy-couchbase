@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-deploy-couchbase",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-deploy-couchbase",
+  "version": "0.1.0",
+  "description": "ember-cli-deploy index-adapter for couchbase",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -9,13 +9,13 @@
   "scripts": {
     "start": "ember server",
     "build": "ember build",
-    "test": "ember test"
+    "test": "./node_modules/mocha/bin/mocha tests/**/*-test.js"
   },
-  "repository": "",
+  "repository": "https://github.com/waltznetworks/ember-deploy-couchbase",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Archit Baweja",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -37,5 +37,11 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "core-object": "^1.1.0",
+    "couchbase": "^2.0.6",
+    "rsvp": "^3.0.17"
   }
 }
