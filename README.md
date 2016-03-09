@@ -1,5 +1,8 @@
 # ember-deploy-couchbase
 
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-deploy-couchbase.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+
+
 [ember-cli-deploy](https://github.com/ember-cli/ember-cli-deploy)
 is an index-adapter for [Couchbase](http://www.couchbase.com). This
 ember-cli addon lets you deploy your ember-cli app's
