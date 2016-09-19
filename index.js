@@ -4,12 +4,10 @@
 var CouchbaseIndexAdapter = require("./lib/couchbase.js");
 
 module.exports = {
-  name: 'ember-deploy-couchbase',
-  type: 'ember-deploy-addon',
+  name: 'ember-cli-deploy-couchbase'
 
-  adapters: {
-    index: {
-      'couchbase': CouchbaseIndexAdapter
-    }
+  createDeployPlugin: function(options) {
+    return {
+    };
   }
 };

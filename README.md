@@ -1,7 +1,4 @@
-# ember-deploy-couchbase
-
-[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-deploy-couchbase.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
-
+# ember-cli-deploy-couchbase
 
 [ember-cli-deploy](https://github.com/ember-cli/ember-cli-deploy)
 is an index-adapter for [Couchbase](http://www.couchbase.com). This
@@ -34,7 +31,7 @@ module.exports = {
 }
 ```
 
-When you do `ember deploy:index -e production`, it will 
+When you do `ember deploy:index -e production`, it will
 
 * Upload the contents of the index.html to the key
 `<project-name>:<sha>` as a doc `{ content: "<html>...." }`.
@@ -113,9 +110,10 @@ index.html to display.
   });
 
   app.listen(3000);
+
 ```
 
 # Tests
 
-This has been tested with Node.js v0.10.25, Couchbase v3.0.1,
+This has been tested with Node.js v4.5.0, Couchbase v3.0.1,
 ExpressJS v4.12.3
